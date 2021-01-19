@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOCKET.IO</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div id="chat-container">
+        <div id="chat-window">
+            <div id="output">
+            </div>
+            <div id="actions"></div>
+        </div>
+        <input type="text" id="message" placeholder="mensaje">
+        <button id="send">Enviar</button>
+        <br><br>
+        <button id="damelCrypto">mostrar mensaje</button>
+    </div>
+    <div id="encrypt-data">
+        <div id="data_window">
+            <div id="output2">
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
